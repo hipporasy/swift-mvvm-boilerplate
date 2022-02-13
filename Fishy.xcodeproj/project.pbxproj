@@ -14,6 +14,25 @@
 		F71CE17427B7CCCD00D8B481 /* FishyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE17327B7CCCD00D8B481 /* FishyTests.swift */; };
 		F71CE17E27B7CCCD00D8B481 /* FishyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE17D27B7CCCD00D8B481 /* FishyUITests.swift */; };
 		F71CE18027B7CCCD00D8B481 /* FishyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE17F27B7CCCD00D8B481 /* FishyUITestsLaunchTests.swift */; };
+		F71CE19627B7D0FD00D8B481 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE19527B7D0FD00D8B481 /* Requestable.swift */; };
+		F71CE19827B7D17000D8B481 /* Responable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE19727B7D17000D8B481 /* Responable.swift */; };
+		F71CE19A27B7D19800D8B481 /* ServiceRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE19927B7D19800D8B481 /* ServiceRequestable.swift */; };
+		F71CE19C27B7D25F00D8B481 /* ServiceDispatchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE19B27B7D25F00D8B481 /* ServiceDispatchable.swift */; };
+		F71CE19F27B7D75A00D8B481 /* FishyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE19E27B7D75A00D8B481 /* FishyApi.swift */; };
+		F71CE1A327B7D81800D8B481 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1A227B7D81800D8B481 /* Fish.swift */; };
+		F71CE1A627B7D83900D8B481 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1A527B7D83900D8B481 /* BaseResponse.swift */; };
+		F71CE1A927B7D8E200D8B481 /* FishService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1A827B7D8E200D8B481 /* FishService.swift */; };
+		F71CE1AE27B7DB3D00D8B481 /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1AD27B7DB3D00D8B481 /* BaseRepository.swift */; };
+		F71CE1B027B7DB6600D8B481 /* FishRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1AF27B7DB6600D8B481 /* FishRepository.swift */; };
+		F71CE1B327B7DC0B00D8B481 /* FishError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1B227B7DC0B00D8B481 /* FishError.swift */; };
+		F71CE1B627B7DC8900D8B481 /* BaseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1B527B7DC8900D8B481 /* BaseUseCase.swift */; };
+		F71CE1B827B7DEE300D8B481 /* FetchFishUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1B727B7DEE300D8B481 /* FetchFishUseCase.swift */; };
+		F71CE1BC27B7E28F00D8B481 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = F71CE1BB27B7E28F00D8B481 /* Swinject */; };
+		F71CE1BE27B7E29900D8B481 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1BD27B7E29900D8B481 /* Container.swift */; };
+		F71CE1C227B7E49700D8B481 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1C127B7E49700D8B481 /* BaseViewModel.swift */; };
+		F71CE1C427B7E4A500D8B481 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1C327B7E4A500D8B481 /* BaseView.swift */; };
+		F71CE1C627B7E4B400D8B481 /* FishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1C527B7E4B400D8B481 /* FishView.swift */; };
+		F71CE1C827B7E50700D8B481 /* FishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71CE1C727B7E50700D8B481 /* FishViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +63,24 @@
 		F71CE17927B7CCCD00D8B481 /* FishyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71CE17D27B7CCCD00D8B481 /* FishyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishyUITests.swift; sourceTree = "<group>"; };
 		F71CE17F27B7CCCD00D8B481 /* FishyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F71CE19527B7D0FD00D8B481 /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		F71CE19727B7D17000D8B481 /* Responable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responable.swift; sourceTree = "<group>"; };
+		F71CE19927B7D19800D8B481 /* ServiceRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRequestable.swift; sourceTree = "<group>"; };
+		F71CE19B27B7D25F00D8B481 /* ServiceDispatchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDispatchable.swift; sourceTree = "<group>"; };
+		F71CE19E27B7D75A00D8B481 /* FishyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishyApi.swift; sourceTree = "<group>"; };
+		F71CE1A227B7D81800D8B481 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		F71CE1A527B7D83900D8B481 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		F71CE1A827B7D8E200D8B481 /* FishService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishService.swift; sourceTree = "<group>"; };
+		F71CE1AD27B7DB3D00D8B481 /* BaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepository.swift; sourceTree = "<group>"; };
+		F71CE1AF27B7DB6600D8B481 /* FishRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishRepository.swift; sourceTree = "<group>"; };
+		F71CE1B227B7DC0B00D8B481 /* FishError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishError.swift; sourceTree = "<group>"; };
+		F71CE1B527B7DC8900D8B481 /* BaseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUseCase.swift; sourceTree = "<group>"; };
+		F71CE1B727B7DEE300D8B481 /* FetchFishUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchFishUseCase.swift; sourceTree = "<group>"; };
+		F71CE1BD27B7E29900D8B481 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		F71CE1C127B7E49700D8B481 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		F71CE1C327B7E4A500D8B481 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F71CE1C527B7E4B400D8B481 /* FishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishView.swift; sourceTree = "<group>"; };
+		F71CE1C727B7E50700D8B481 /* FishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71CE1BC27B7E28F00D8B481 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +132,11 @@
 		F71CE16127B7CCCB00D8B481 /* Fishy */ = {
 			isa = PBXGroup;
 			children = (
-				F71CE16227B7CCCB00D8B481 /* FishyApp.swift */,
-				F71CE16427B7CCCB00D8B481 /* ContentView.swift */,
-				F71CE16627B7CCCD00D8B481 /* Assets.xcassets */,
+				F71CE1B927B7E20500D8B481 /* DI */,
+				F71CE18F27B7CE3200D8B481 /* Support */,
+				F71CE18C27B7CE1300D8B481 /* Data */,
+				F71CE18D27B7CE1B00D8B481 /* Domain */,
+				F71CE18E27B7CE2100D8B481 /* Presentation */,
 				F71CE16827B7CCCD00D8B481 /* Preview Content */,
 			);
 			path = Fishy;
@@ -127,6 +167,150 @@
 			path = FishyUITests;
 			sourceTree = "<group>";
 		};
+		F71CE18C27B7CE1300D8B481 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1B127B7DC0100D8B481 /* Error */,
+				F71CE1A127B7D80B00D8B481 /* Entity */,
+				F71CE1AA27B7DADA00D8B481 /* Repository */,
+				F71CE19427B7D0F500D8B481 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F71CE18D27B7CE1B00D8B481 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1B427B7DC7D00D8B481 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F71CE18E27B7CE2100D8B481 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1C027B7E48F00D8B481 /* Base */,
+				F71CE1BF27B7E48500D8B481 /* Fish */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F71CE18F27B7CE3200D8B481 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE16627B7CCCD00D8B481 /* Assets.xcassets */,
+				F71CE16427B7CCCB00D8B481 /* ContentView.swift */,
+				F71CE16227B7CCCB00D8B481 /* FishyApp.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F71CE19427B7D0F500D8B481 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1A727B7D8CE00D8B481 /* ServiceRequest */,
+				F71CE1A427B7D83400D8B481 /* Response */,
+				F71CE19D27B7D75300D8B481 /* Api */,
+				F71CE1AB27B7DAEC00D8B481 /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F71CE19D27B7D75300D8B481 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE19E27B7D75A00D8B481 /* FishyApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		F71CE1A127B7D80B00D8B481 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1A227B7D81800D8B481 /* Fish.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F71CE1A427B7D83400D8B481 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1A527B7D83900D8B481 /* BaseResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F71CE1A727B7D8CE00D8B481 /* ServiceRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1A827B7D8E200D8B481 /* FishService.swift */,
+			);
+			path = ServiceRequest;
+			sourceTree = "<group>";
+		};
+		F71CE1AA27B7DADA00D8B481 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1AD27B7DB3D00D8B481 /* BaseRepository.swift */,
+				F71CE1AF27B7DB6600D8B481 /* FishRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		F71CE1AB27B7DAEC00D8B481 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE19527B7D0FD00D8B481 /* Requestable.swift */,
+				F71CE19727B7D17000D8B481 /* Responable.swift */,
+				F71CE19927B7D19800D8B481 /* ServiceRequestable.swift */,
+				F71CE19B27B7D25F00D8B481 /* ServiceDispatchable.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F71CE1B127B7DC0100D8B481 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1B227B7DC0B00D8B481 /* FishError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		F71CE1B427B7DC7D00D8B481 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1B527B7DC8900D8B481 /* BaseUseCase.swift */,
+				F71CE1B727B7DEE300D8B481 /* FetchFishUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		F71CE1B927B7E20500D8B481 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1BD27B7E29900D8B481 /* Container.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		F71CE1BF27B7E48500D8B481 /* Fish */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1C527B7E4B400D8B481 /* FishView.swift */,
+				F71CE1C727B7E50700D8B481 /* FishViewModel.swift */,
+			);
+			path = Fish;
+			sourceTree = "<group>";
+		};
+		F71CE1C027B7E48F00D8B481 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F71CE1C127B7E49700D8B481 /* BaseViewModel.swift */,
+				F71CE1C327B7E4A500D8B481 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +327,9 @@
 			dependencies = (
 			);
 			name = Fishy;
+			packageProductDependencies = (
+				F71CE1BB27B7E28F00D8B481 /* Swinject */,
+			);
 			productName = Fishy;
 			productReference = F71CE15F27B7CCCB00D8B481 /* Fishy.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +402,9 @@
 				Base,
 			);
 			mainGroup = F71CE15627B7CCCB00D8B481;
+			packageReferences = (
+				F71CE1BA27B7E28F00D8B481 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = F71CE16027B7CCCB00D8B481 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +447,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71CE1A627B7D83900D8B481 /* BaseResponse.swift in Sources */,
+				F71CE19C27B7D25F00D8B481 /* ServiceDispatchable.swift in Sources */,
+				F71CE1C227B7E49700D8B481 /* BaseViewModel.swift in Sources */,
+				F71CE19A27B7D19800D8B481 /* ServiceRequestable.swift in Sources */,
+				F71CE19627B7D0FD00D8B481 /* Requestable.swift in Sources */,
 				F71CE16527B7CCCB00D8B481 /* ContentView.swift in Sources */,
+				F71CE1C627B7E4B400D8B481 /* FishView.swift in Sources */,
+				F71CE1B327B7DC0B00D8B481 /* FishError.swift in Sources */,
+				F71CE1B827B7DEE300D8B481 /* FetchFishUseCase.swift in Sources */,
+				F71CE1B027B7DB6600D8B481 /* FishRepository.swift in Sources */,
+				F71CE19F27B7D75A00D8B481 /* FishyApi.swift in Sources */,
+				F71CE1AE27B7DB3D00D8B481 /* BaseRepository.swift in Sources */,
+				F71CE1C827B7E50700D8B481 /* FishViewModel.swift in Sources */,
+				F71CE19827B7D17000D8B481 /* Responable.swift in Sources */,
 				F71CE16327B7CCCB00D8B481 /* FishyApp.swift in Sources */,
+				F71CE1A327B7D81800D8B481 /* Fish.swift in Sources */,
+				F71CE1BE27B7E29900D8B481 /* Container.swift in Sources */,
+				F71CE1C427B7E4A500D8B481 /* BaseView.swift in Sources */,
+				F71CE1B627B7DC8900D8B481 /* BaseUseCase.swift in Sources */,
+				F71CE1A927B7D8E200D8B481 /* FishService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +793,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F71CE1BA27B7E28F00D8B481 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F71CE1BB27B7E28F00D8B481 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F71CE1BA27B7E28F00D8B481 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F71CE15727B7CCCB00D8B481 /* Project object */;
 }
